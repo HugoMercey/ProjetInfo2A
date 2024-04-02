@@ -1,0 +1,19 @@
+#point1x, #point2x, #point3x, #point4x{
+    width: 1000px;
+}
+
+#point1y, #point2y, #point3y, #point4y{
+    float: right;
+    -webkit-appearance: slider-vertical;
+    height: 500px;
+    width: 50px;
+    transform: rotate(180deg);
+}
+
+#test{
+    float: right;
+}
+
+canvas{
+    float: left;
+}
